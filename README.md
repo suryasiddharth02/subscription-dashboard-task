@@ -3,9 +3,9 @@ A full-stack SaaS admin dashboard for managing subscriptions with user authentic
 
 ## Features
 ## Authentication & Authorization
-JWT-based authentication with access & refresh tokens
+- JWT-based authentication with access & refresh tokens
 
-Role-based access control (Admin/User)
+- Role-based access control (Admin/User)
 
 Secure password hashing with bcrypt
 
