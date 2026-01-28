@@ -128,6 +128,7 @@ Git
 ## Step 1: Clone the Repository
 bash
 git clone https://github.com/suryasiddharth02/subscription-dashboard-task.git
+
 cd subscription-dashboard-task
 ## Step 2: Database Setup
 ## Option A: Using PostgreSQL CLI
