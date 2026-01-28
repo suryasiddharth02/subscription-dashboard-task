@@ -1,11 +1,6 @@
 # Subscription Management Dashboard
 A full-stack SaaS admin dashboard for managing subscriptions with user authentication, subscription management, and admin features. Built as a technical assessment for GNXTace Technologies.
 
-https://img.shields.io/badge/Status-Complete-brightgreen
-https://img.shields.io/badge/License-MIT-blue
-https://img.shields.io/badge/Node-25.5.0-green
-https://img.shields.io/badge/React-18.2.0-blue
-
 # Features
 # Authentication & Authorization
 JWT-based authentication with access & refresh tokens
