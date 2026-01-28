@@ -456,20 +456,20 @@ Authorization: Bearer <access_token>
 ## Author
 ### Surya Siddharth
 
-GitHub: @suryasiddharth02
+- GitHub: @suryasiddharth02
 
-Email: suryasiddharth02@gmail.com
+- Email: suryasiddharth02@gmail.com
 
-LinkedIn: https://www.linkedin.com/in/suryasiddharth75/
+- LinkedIn: https://www.linkedin.com/in/suryasiddharth75/
 
 ## Acknowledgements
-GNXTace Technologies for the assessment opportunity
+- GNXTace Technologies for the assessment opportunity
 
-React and Node.js communities
+- React and Node.js communities
 
-Tailwind CSS for the amazing utility-first framework
+- Tailwind CSS for the amazing utility-first framework
 
-All open-source contributors
+- All open-source contributors
 
 ## Support
 For support, email suryasiddharth02@gmail.com or create an issue in the GitHub repository.
