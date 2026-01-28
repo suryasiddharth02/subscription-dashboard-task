@@ -87,29 +87,33 @@ Notifications: React Hot Toast
 # Project Structure
 
 subscription-dashboard-task/
-├── server/                 # Backend API
-│   ├── config/            # Database & JWT configuration
-│   ├── middleware/        # Auth & validation middleware
-│   ├── routes/           # API routes
-│   ├── validation/       # Joi validation schemas
-│   ├── db/              # Database schema
-│   ├── .env.example     # Environment variables template
-│   ├── server.js        # Main server file
-│   ├── seed.js          # Database seeder
-│   └── package.json
-├── client/               # Frontend React App
-│   ├── src/
-│   │   ├── components/   # Reusable components
-│   │   ├── pages/       # Page components
-│   │   ├── store/       # Redux slices & store
-│   │   ├── services/    # API services
-│   │   ├── hooks/       # Custom hooks
-│   │   ├── App.jsx      # Main App component
-│   │   └── main.jsx     # Entry point
-│   ├── index.html
-│   ├── package.json
-│   └── vite.config.js
-└── README.md
+├── server/ # Backend API
+│ ├── config/ # Database & JWT configuration
+│ ├── middleware/ # Auth & validation middleware
+│ ├── routes/ # API routes
+│ ├── validation/ # Joi validation schemas
+│ ├── db/ # Database schema
+│ ├── .env.example # Environment variables template
+│ ├── server.js # Main server file
+│ ├── seed.js # Database seeder
+│ └── package.json
+├── client/ # Frontend React App
+│ ├── src/
+│ │ ├── components/ # Reusable components
+│ │ ├── pages/ # Page components
+│ │ ├── store/ # Redux slices & store
+│ │ ├── services/ # API services
+│ │ ├── hooks/ # Custom hooks
+│ │ ├── App.jsx # Main App component
+│ │ └── main.jsx # Entry point
+│ ├── index.html
+│ ├── package.json
+│ ├── tailwind.config.js
+│ ├── postcss.config.js
+│ └── vite.config.js
+├── README.md
+├── LICENSE
+└── .gitignore
 
 # Setup Instructions
 ## Prerequisites
