@@ -3,86 +3,86 @@ A full-stack SaaS admin dashboard for managing subscriptions with user authentic
 
 # Features
 # Authentication & Authorization
-. JWT-based authentication with access & refresh tokens
+JWT-based authentication with access & refresh tokens
 
-. Role-based access control (Admin/User)
+Role-based access control (Admin/User)
 
-. Secure password hashing with bcrypt
+Secure password hashing with bcrypt
 
-. Auto-logout and silent token refresh
+Auto-logout and silent token refresh
 
 # Subscription Management
-. Browse available subscription plans
+Browse available subscription plans
 
-. Subscribe to plans with automatic date calculation
+Subscribe to plans with automatic date calculation
 
-. View active subscription details
+View active subscription details
 
-. Track subscription status (active/expired/cancelled)
+Track subscription status (active/expired/cancelled)
 
 # Admin Dashboard
-. View all user subscriptions
+View all user subscriptions
 
-. Filter subscriptions by status
+Filter subscriptions by status
 
-. User management interface
+User management interface
 
-. Create and manage subscription plans
+Create and manage subscription plans
 
 # UI/UX Features
-. Responsive design with Tailwind CSS
+Responsive design with Tailwind CSS
 
-. Dark/Light theme toggle (Bonus Feature)
+Dark/Light theme toggle (Bonus Feature)
 
-. Clean, professional interface
+Clean, professional interface
 
-. Real-time status indicators
+Real-time status indicators
 
-. Loading states and error handling
+Loading states and error handling
 
 # Technical Features
-. RESTful API with Express.js
+RESTful API with Express.js
 
-. PostgreSQL database with Knex.js ORM
+PostgreSQL database with Knex.js ORM
 
-. Input validation with Joi
+Input validation with Joi
 
-. Error handling with structured responses
+Error handling with structured responses
 
-. Database seeding with sample plans
+Database seeding with sample plans
 
 # Tech Stack
 ## Backend
-. Runtime: Node.js 25.5.0
+Runtime: Node.js 25.5.0
 
-. Framework: Express.js
+Framework: Express.js
 
-. Database: PostgreSQL
+Database: PostgreSQL
 
-. ORM: Knex.js
+ORM: Knex.js
 
-. Authentication: JWT + Refresh Tokens
+Authentication: JWT + Refresh Tokens
 
-. Validation: Joi
+Validation: Joi
 
-. Security: bcryptjs, helmet, cors
+Security: bcryptjs, helmet, cors
 
 ## Frontend
-. Framework: React.js 18.2.0
+Framework: React.js 18.2.0
 
-. Build Tool: Vite
+Build Tool: Vite
 
-. Styling: Tailwind CSS
+Styling: Tailwind CSS
 
-. State Management: Redux Toolkit
+State Management: Redux Toolkit
 
-. Routing: React Router DOM
+Routing: React Router DOM
 
-. HTTP Client: Axios
+HTTP Client: Axios
 
-. Icons: React Icons
+Icons: React Icons
 
-. Notifications: React Hot Toast
+Notifications: React Hot Toast
 
 # Project Structure
 
@@ -113,11 +113,11 @@ subscription-dashboard-task/
 
 # Setup Instructions
 ## Prerequisites
-. Node.js 25.5.0 or higher
+Node.js 25.5.0 or higher
 
-. PostgreSQL 12 or higher
+PostgreSQL 12 or higher
 
-. Git
+Git
 
 # Step 1: Clone the Repository
 bash
@@ -173,122 +173,122 @@ npm run dev
 
 # API Endpoints
 # Authentication
-. POST /api/auth/register - Register a new user
+POST /api/auth/register - Register a new user
 
-. POST /api/auth/login - User login
+POST /api/auth/login - User login
 
-. POST /api/auth/refresh - Refresh access token
+POST /api/auth/refresh - Refresh access token
 
 # Plans
-. GET /api/plans - Get all available plans
+GET /api/plans - Get all available plans
 
-. GET /api/plans/:id - Get specific plan details
+GET /api/plans/:id - Get specific plan details
 
 # Subscriptions
-. POST /api/subscriptions/subscribe/:planId - Subscribe to a plan
+POST /api/subscriptions/subscribe/:planId - Subscribe to a plan
 
-. GET /api/subscriptions/my-subscription - Get user's active subscription
+GET /api/subscriptions/my-subscription - Get user's active subscription
 
 # Admin (Admin Only)
-. GET /api/admin/subscriptions - Get all subscriptions
+GET /api/admin/subscriptions - Get all subscriptions
 
-. GET /api/admin/users - Get all users
+GET /api/admin/users - Get all users
 
-. POST /api/admin/plans - Create new plan
+POST /api/admin/plans - Create new plan
 
 # Pages & Routes
 ## Public Routes
-. /login - User login page
+/login - User login page
 
-. /register - User registration page
+/register - User registration page
 
 ## Protected Routes (Authenticated Users)
-. /dashboard - User dashboard with subscription details
+/dashboard - User dashboard with subscription details
 
-. /plans - Browse and subscribe to plans
+/plans - Browse and subscribe to plans
 
 ## Admin Routes (Admin Only)
-. /admin/subscriptions - Admin dashboard for all subscriptions
+/admin/subscriptions - Admin dashboard for all subscriptions
 
 # User Roles
 # Regular User
-. Can register and login
+Can register and login
 
-. Can browse available plans
+Can browse available plans
 
-. Can subscribe to a plan
+Can subscribe to a plan
 
-. Can view their own subscription
+Can view their own subscription
 
-. Cannot access admin routes
+Cannot access admin routes
 
 # Admin User
-. All regular user permissions
+All regular user permissions
 
-. Can view all subscriptions
+Can view all subscriptions
 
-. Can view all users
+Can view all users
 
-. Can create new plans
+Can create new plans
 
-. Can access /admin/* routes
+Can access /admin/* routes
 
 # Default Credentials
 # Admin Account
-. Email: admin@example.com
+Email: admin@example.com
 
-. Password: admin123
+Password: admin123
 
-. Role: Admin
+Role: Admin
 
 # Regular User Account
 # User Account
-. Email: user@example.com
+Email: user@example.com
 
-. Password: user123
+Password: user123
 
-. Role: User
+Role: User
 
 # Dark/Light Theme
-. The application includes a theme toggle feature:
+The application includes a theme toggle feature:
 
-. Click the theme toggle button in the navigation bar
+Click the theme toggle button in the navigation bar
 
-. Theme preference is saved in localStorage
+Theme preference is saved in localStorage
 
-. Follows system theme preference by default
+Follows system theme preference by default
 
-. Smooth transitions between themes
+Smooth transitions between themes
 
 # Testing the Application
 ## 1. Registration & Login
-. Navigate to /register to create a new account
+Navigate to /register to create a new account
 
-. Or use demo credentials to login at /login
+Or use demo credentials to login at /login
 
 ## 2. Browse Plans
-. Navigate to /plans to view available subscription plans
+Navigate to /plans to view available subscription plans
 
-. Each plan shows features, price, and duration
+Each plan shows features, price, and duration
 
 ## 3. Subscribe to Plan
-. Click "Subscribe Now" on any plan
+Click "Subscribe Now" on any plan
 
-. System will create an active subscription
+System will create an active subscription
 
-. Redirects to dashboard with subscription details
+Redirects to dashboard with subscription details
 
 ## 4. View Subscription
-. Navigate to /dashboard to view active subscription
+Navigate to /dashboard to view active subscription
 
-. Shows plan details, pricing, and expiration date
+Shows plan details, pricing, and expiration date
 
 ## 5. Admin Features
-. Login with admin credentials
+Login with admin credentials
 
-. Navigate to /admin/subscriptions
+Navigate to /admin/subscriptions
 
-. View all user subscriptions with filtering options
+View all user subscriptions with filtering options
 
 # Deployment
 ## Backend Deployment (Render/Railway)
@@ -425,48 +425,48 @@ Authorization: Bearer <access_token>
 # Bonus Features Implemented
 ## Dark/Light Theme Toggle
 
-. Persistent theme preference
+Persistent theme preference
 
-. System theme detection
+System theme detection
 
-. Smooth transitions
+Smooth transitions
 
 ## Responsive Design
 
-. Mobile-first approach
+Mobile-first approach
 
-. Tablet and desktop optimized
+Tablet and desktop optimized
 
-. Consistent across devices
+Consistent across devices
 
 ## Enhanced UI/UX
 
-. Loading states
+Loading states
 
-. Error boundaries
+Error boundaries
 
-. Toast notifications
+Toast notifications
 
-. Form validation
+Form validation
 
 
 # Author
 ## Surya Siddharth
 
-. GitHub: @suryasiddharth02
+GitHub: @suryasiddharth02
 
-. Email: suryasiddharth02@gmail.com
+Email: suryasiddharth02@gmail.com
 
-. LinkedIn: https://www.linkedin.com/in/suryasiddharth75/
+LinkedIn: https://www.linkedin.com/in/suryasiddharth75/
 
 # Acknowledgements
-. GNXTace Technologies for the assessment opportunity
+GNXTace Technologies for the assessment opportunity
 
-. React and Node.js communities
+React and Node.js communities
 
-. Tailwind CSS for the amazing utility-first framework
+Tailwind CSS for the amazing utility-first framework
 
-. All open-source contributors
+All open-source contributors
 
 # Support
 For support, email suryasiddharth02@gmail.com or create an issue in the GitHub repository.
